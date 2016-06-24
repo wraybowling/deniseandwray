@@ -1,8 +1,19 @@
-header{
-	background-image:url('shoes.jpg');
+@font-face {
+  font-family: "Arabella";
+  src: url(fonts/Arabella.woff);
+	font-weight:400;
+	font-style:italic;
+}
+
+.card{
 	background-size:cover;
 	background-position:50% 50%;
 	height:100vh;
+	text-align: center;
+}
+
+header{
+	background-image:url('shoes.jpg');
 }
 
 h1{
@@ -12,4 +23,17 @@ h1{
 	letter-spacing: 0.2em;
 	text-transform: uppercase;
 	text-shadow: -0.1em 0.1em rgba(0,0,0,0.25);
+}
+
+.yellow-hello{
+	font-family:"Arabella";
+	font-size:120pt;
+	color:#4e423b;
+	background-color:lightyellow;
+
+}
+
+.yellow-hello > *{
+	transform:rotate(-4deg);
+	font-weight:400;
 }
