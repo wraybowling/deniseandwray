@@ -40,15 +40,26 @@ h1{
 	text-shadow: -0.1em 0.1em rgba(0,0,0,0.25);
 }
 
-.yellow-hello{
+.yellow-hello,
+.photo-hello{
 	font-family:"Cool Cursive";
 	font-size:120pt;
+}
+
+.yellow-hello{
 	color:#4e423b;
 	background-color:lightyellow;
-
 }
 
 .yellow-hello > *{
 	transform:rotate(-4deg);
 	font-weight:400;
+}
+
+.photo-hello{
+	color:white;
+}
+
+#justUs{
+	background-image:url('save-the-date.jpg');
 }
