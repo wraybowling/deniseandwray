@@ -1,8 +1,21 @@
 @font-face {
-  font-family: "Arabella";
+  font-family: "Cool Cursive";
   src: url(fonts/Arabella.woff);
 	font-weight:400;
 	font-style:italic;
+}
+
+@font-face {
+  font-family: "Attractive Sans Serif";
+  src: url(fonts/Futura-Medium.woff);
+	font-weight:400;
+	font-style:italic;
+}
+
+body{
+	font-family: "Attractive Sans Serif";
+	font-weight:400;
+	font-size:24px;
 }
 
 .card{
@@ -12,12 +25,14 @@
 	text-align: center;
 }
 
+
+
 header{
 	background-image:url('shoes.jpg');
 }
 
 h1{
-	font-family:Futura;
+	font-family:"Attractive Sans Serif";
 	font-size:24px;
 	color:white;
 	letter-spacing: 0.2em;
@@ -26,7 +41,7 @@ h1{
 }
 
 .yellow-hello{
-	font-family:"Arabella";
+	font-family:"Cool Cursive";
 	font-size:120pt;
 	color:#4e423b;
 	background-color:lightyellow;
