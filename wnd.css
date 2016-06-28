@@ -14,7 +14,7 @@
 
 body{
 	font-family: "Attractive Sans Serif";
-	font-weight:400;
+	font-weight:normal;
 	font-size:24px;
 }
 
@@ -31,7 +31,7 @@ header{
 	background-image:url('shoes.jpg');
 }
 
-h1{
+header h1{
 	font-family:"Attractive Sans Serif";
 	font-size:24px;
 	color:white;
@@ -51,7 +51,7 @@ h1{
 	background-color:lightyellow;
 }
 
-.yellow-hello > *{
+h1{
 	transform:rotate(-4deg);
 	font-weight:400;
 }
