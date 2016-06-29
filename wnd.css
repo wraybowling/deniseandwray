@@ -1,3 +1,13 @@
+/**
+* #141414 black
+* #ffffff white
+* #fff8b4 light yellow
+* #270000 text on light yellow
+* #ffff7d bright yellow
+* #57d8ff cyan
+* #ff4a3c red
+*/
+
 @font-face {
   font-family: "Cool Cursive";
   src: url(fonts/Arabella.woff);
@@ -16,28 +26,44 @@ body{
 	font-family: "Attractive Sans Serif";
 	font-weight:normal;
 	font-size:24px;
+	letter-spacing: 0.2em;
 }
+
+
+header{
+	font-family:"Attractive Sans Serif";
+	text-transform: uppercase;
+}
+header section{
+	display: flex;
+	justify-content: space-between;
+	padding: 0.25em;
+}
+header a{
+	padding: 0.25em;
+	text-decoration: none;
+}
+
+#headerUpper{
+	background-color:#141414;
+	color:white;
+}
+#headerUpper a:hover{ background-color:#333; }
+
+#headerLower{
+	background-color:white;
+	color:#141414;
+}
+
+a[href="#columbia"]:hover{ background-color: #57d8ff; }
+a[href="#registry"]:hover{ background-color: #ff4a3c; }
+a[href="#about"]:hover{ background-color: #ffff7d; }
 
 .card{
 	background-size:cover;
 	background-position:50% 50%;
-	height:100vh;
+	min-height:80vh;
 	text-align: center;
-}
-
-
-
-header{
-	background-image:url('shoes.jpg');
-}
-
-header h1{
-	font-family:"Attractive Sans Serif";
-	font-size:24px;
-	color:white;
-	letter-spacing: 0.2em;
-	text-transform: uppercase;
-	text-shadow: -0.1em 0.1em rgba(0,0,0,0.25);
 }
 
 .yellow-hello,
@@ -51,15 +77,19 @@ header h1{
 	background-color:lightyellow;
 }
 
-h1{
+h2{
 	transform:rotate(-4deg);
 	font-weight:400;
+	width:80%;
 }
 
 .photo-hello{
 	color:white;
 }
 
+#columbia{
+	background-image:url('senates-end.jpg');
+}
 #justUs{
 	background-image:url('save-the-date.jpg');
 }
