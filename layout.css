@@ -71,3 +71,7 @@ html[dir="rtl"] .left { float:right; }
   align-items: center;
   justify-content: center;
 }
+
+.crop{
+	overflow:hidden;
+}

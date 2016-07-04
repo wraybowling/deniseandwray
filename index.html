@@ -1,3 +1,18 @@
+<!--
+
+- May 20 2016
+-- "Save The Date"
+-- iCal
+-- "hats & flats"
+-- ( schedule tba )
+- Columbia SC
+-- Things you can do here
+-- Where to stay
+- Our registry
+-- external link
+
+-->
+
 <!doctype html>
 <html>
 <head>
@@ -8,29 +23,35 @@
 </head>
 <body>
 	<header>
-		<section id="headerUpper">
+		<div id="headerUpper">
 			<a href="#main">Denise+Wray</a>
 			<a href="#when">May 20</a>
-		</section>
-		<section id="headerLower">
+		</div>
+		<div id="headerLower">
 			<a href="#columbia">Columbia SC</a>
 			<a href="#registry">Nest Egg</a>
 			<a href="#about">About Us</a>
-		</section>
+		</div>
 	</header>
 
-	<main>	
-		<section id="may20" class="card flex-center yellow-hello">
-			<div class="half photo">
-				<!-- just us -->
-			</div>
-			<div class="half">
-				<h2>May 20, 2016</h2>
-				<p><a href="denise-and-wray.ics">Download the schedule to your calendar</a> with reminders and everything.</p>
-			</div>
+	<main>
+
+		<section class="save-the-date flex-center crop">
+			<h1>
+				<span>May 20, 2016</span>
+				<br><span>Columbia, SC</span>
+			</h1>
+			<div class="red frame" style="width:40vh; height:60vh; transform:translate(-50vw,-30vh) rotate(14deg);"></div>
+			<div class="blue frame" style="width:40vh; height:60vh; transform:translate(40vw,-40vh) rotate(-14deg);"></div>
+			<div class="yellow frame" style="width:60vh; height:60vh; transform:translate(20vw,-10vh) rotate(-4deg);"></div>
 		</section>
 		
-		
+		<section class="flex-layout">
+			<section class="half card just-us"></section>
+			<div class="half flex-center yellow-hello">
+				<h2><a href="denise-and-wray.ics">Save The Date <img src="calendar.svg" class="emoji"></a></h2>
+			</div>
+		</section>
 		
 
 		<section id="columbia" class="card">
@@ -55,9 +76,13 @@
 			</div>
 		</section>
 		
-		<section id="nestEgg">
-			<p></p>
-			<a href="http://www.simpleregistry.com/deniseandwray/">See our registry</a>
+		<section id="nestEgg" class="flex-layout">
+			<section class="card flex-center hebrides photo-hello">
+				<h2>Scottland<img src="scottish-flag.svg" class="emoji" alt="Scottish Flag">!</h2>
+			</section>
+			<div class="half">
+				<a href="http://www.simpleregistry.com/deniseandwray/">See our registry</a>
+			</div>
 		</section>
 		
 		<section id="justUs" class="card flex-center photo-hello">
