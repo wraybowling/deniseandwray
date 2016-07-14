@@ -3,13 +3,15 @@
 - May 20 2016
 -- "Save The Date"
 -- iCal
--- "hats & flats"
+- Logistics
+-- Where to stay
+-- "hats & flats" (later)
 -- ( schedule tba )
 - Columbia SC
 -- Things you can do here
--- Where to stay
 - Our registry
 -- external link
+- About us
 
 -->
 
@@ -20,6 +22,7 @@
 	<link rel="stylesheet" href="wildcard.css">
 	<link rel="stylesheet" href="layout.css">
 	<link rel="stylesheet" href="wnd.css">
+	<link rel="stylesheet" href="https://npmcdn.com/flickity@1.2/dist/flickity.min.css">
 </head>
 <body>
 	<header>
@@ -29,69 +32,190 @@
 		</div>
 		<div id="headerLower">
 			<a href="#columbia">Columbia SC</a>
-			<a href="#registry">Nest Egg</a>
+			<a href="#registry">Registry</a>
 			<a href="#about">About Us</a>
 		</div>
 	</header>
 
 	<main>
 
-		<section class="save-the-date flex-center crop">
-			<h1>
-				<span>May 20, 2016</span>
-				<br><span>Columbia, SC</span>
-			</h1>
-			<div class="red frame" style="width:40vh; height:60vh; transform:translate(-50vw,-30vh) rotate(14deg);"></div>
-			<div class="blue frame" style="width:40vh; height:60vh; transform:translate(40vw,-40vh) rotate(-14deg);"></div>
-			<div class="yellow frame" style="width:60vh; height:60vh; transform:translate(20vw,-10vh) rotate(-4deg);"></div>
-		</section>
+		
 		
 		<section class="flex-layout">
-			<section class="half card just-us"></section>
+			<section class="just-us half card"></section>
+<!--
 			<div class="half flex-center yellow-hello">
 				<h2><a href="denise-and-wray.ics">Save The Date <img src="calendar.svg" class="emoji"></a></h2>
 			</div>
-		</section>
-		
-
-		<section id="columbia" class="card">
-			<h2>Columbia, SC</h2>
-			<p>Some things you can check out while you're here</p>
-			
-			<div class="things-to-do">
-				<div>
-					<img src="edventure.jpg">
-					<label>EdVenture</label>
-				</div>
-				<div>
-					<img src="the-whig.jpg">
-					<label>The Whig</label>
-				</div>
-				<div>
-					<img src="the-whig.jpg">
-					<label>The Whig</label>
-				</div>
-
-				<p><a href="http://maps.apple.com/maps?q=Dupre+Catering+and+Events">open map in apple maps</a></p>
-			</div>
-		</section>
-		
-		<section id="nestEgg" class="flex-layout">
-			<section class="card flex-center hebrides photo-hello">
-				<h2>Scottland<img src="scottish-flag.svg" class="emoji" alt="Scottish Flag">!</h2>
+-->
+			<section class="save-the-date flex-center crop half">
+				<h1>
+					<span>May 20, 2016</span>
+					<br><span>Columbia, SC</span>
+					<br><button>Download the date</button>
+				</h1>
+				<div class="red frame" style="width:40vh; height:60vh; transform:translate(-50vw,-30vh) rotate(14deg);"></div>
+				<div class="blue frame" style="width:40vh; height:60vh; transform:translate(40vw,-40vh) rotate(-14deg);"></div>
+				<div class="yellow frame" style="width:60vh; height:60vh; transform:translate(20vw,-10vh) rotate(-4deg);"></div>
 			</section>
-			<div class="half">
-				<a href="http://www.simpleregistry.com/deniseandwray/">See our registry</a>
+		</section>
+		
+		<!-- Logistics go here LATER -->
+
+		<section id="columbia" class="card cushion yellow-hello"><!--flip with registry LATER-->
+			<h2>Columbia, SC</h2>
+			
+			<div class="things-to-do js-flickity" data-flickity='{ "wrapAround": true }'>
+		
+				<article>
+					<img src="riverbanks-garden.jpg">
+					<caption>
+						<label>Riverbanks Zoo &amp; Garden</label>
+						<p>A zoo that's 10 minutes from downtown.</p>
+						<a href="http://www.riverbanks.org">Link</a>
+					</caption>
+				</article>
+				
+				<article>
+					<img src="riverbanks-garden.jpg">
+					<caption>
+						<label>Columbia Museum of Art</label>
+						<p>right in the middle of downtown.</p>
+<!--						<a href="http://www.riverbanks.org">Link</a>-->
+					</caption>
+				</article>
+				
+				<article>
+					<img src="riverbanks-garden.jpg">
+					<caption>
+						<label>Soda City Market</label>
+						<p>right in the middle of downtown.</p>
+<!--						<a href="http://www.riverbanks.org">Link</a>-->
+					</caption>
+				</article>
+				
+				<article>
+					<img src="edventure.jpg">
+					<caption>
+						<label>EdVenture</label>
+						<p>Right across the street from the wedding venue.</p>
+					</caption>
+				</article>
+				
+				
+				<article>
+					<img src="tubing.jpg">
+					<caption>
+						<label>River Tubing on the Saluda</label>
+						<p>A river cuts through the middle of downtown Columbia, and you can ride that river on a tube for $10.</p>
+						<a href="http://palmettooutdoor.com/tube-rentals/grab-n-go">Link</a>
+					</caption>
+				</article>
+				
+				<article>
+					<img src="richland-library.jpg">
+					<caption>
+						<label>Richland Library</label>
+						<p>Wray works here.</p>
+					</caption>
+				</article>
+				
+				<article>
+					<img src="nickelodeon.jpg">
+					<caption>
+						<label>Nickelodeon</label>
+						<p>It's a theater; a very cool theater.</p>
+					</caption>
+				</article>
+				
+				
+				<article>
+					<img src="the-whig.jpg">
+					<caption>
+						<label>The Whig</label>
+						<p>Our favorite dive bar.</p>
+						<a href="http://www.thewhig.org/">Link</a>
+					</caption>
+				</article>
+				
+				
+			</div>
+			
+<!--			<p><a class="button" href="http://maps.apple.com/maps?q=Dupre+Catering+and+Events">see a full Map</a></p>-->
+		</section>
+		
+		<section id="registry" class="flex-layout card"><!--flip with columbia LATER-->
+			<div class="card cushion hebrides photo-hello">
+				<h2>Help us get to<br>Scotland<img src="scottish-flag.svg" class="emoji" alt="Scottish Flag">!</h2>
+				<a class="white button" href="http://www.simpleregistry.com/deniseandwray/">See our registry</a>
+			</div>
+			<div class="half card cushion photo-hello house">
+				<h2>Help us stay home</h2>
+				<a class="white button" href="http://www.simpleregistry.com/deniseandwray/">See our registry</a>
 			</div>
 		</section>
 		
-		<section id="justUs" class="card flex-center photo-hello">
-			<div class="half">
-				<p>We met on Tinder. <img class="emoji" src="party-popper.svg"></p>
+		<section id="justUs" class="card flex-center yellow-hello">
+			
+				<h2>We met on Tinder. <img class="emoji" src="fire.svg"><img class="emoji" src="party-popper.svg"></h2>
+			
+				<div>
+					<img src="tinder-for-wray.png">
+					<img src="tinder-for-denise.png">
 			</div>
+			
+			<p>Number of users on Tinder in 2015: <a href="http://expandedramblings.com/index.php/tinder-statistics/">~50 million</a>
+
+Matches made on Tinder by the time we got engaged: 10 billion (http://expandedramblings.com/index.php/tinder-statistics/)
+
+Top 3 ways to get noticed on Tinder: humor (Denise), clever opening (Wray), looks (both of us obviously) (http://thechive.com/2014/11/19/study-reveals-surprising-statistics-behind-tinder-hookups-10-photos/)
+
+% of times men swipe right on average: 47
+% of times women swipe right on average: 15
+
+% by which bearded men get more right swipes than their clean shaven counterparts: 18
+
+percentage of Tinder users who say they are looking for a significant other: 27 (http://www.datingsitesreviews.com/staticpages/index.php?page=Tinder-Statistics-Facts-History)
+
+Swipes per day: 1.6 million
+In-person dates per week resulting from Tinder matches: 1.5 million (http://www.datingsitesreviews.com/staticpages/index.php?page=Tinder-Statistics-Facts-History#ref-ODS-Tinder-2016-6)
+
+Location of our first date: Alley 26
+
+Total number of dates we went on at Alley 26: 2
+
+Weddings we will have attended as a couple before we tie the knot: 5
+
+Number of tweets Wray has tweeted since meeting Denise: 
+
+Number of letters Denise has written since meeting Wray: 
+
+Duration of time we lived at Aaron &amp; Lauren's after our rental house flooded as we were moving in: 1 week
+
+Duration of weeks we were subsequently without a complete kitchen floor: 3
+
+Iterations of our relationship-saving chore wheels: 3
+
+Vacations we have taken together: 1 
+
+Number of dogs we have had: 3 (RIP Spencer)
+
+Approximate hours between our first date and Wray’s proposal: 12,691
+
+Number of days until our wedding: 
+
+
+
+http://www.cosmopolitan.com/sex-love/news/a53737/i-met-my-husband-on-tinder/
+
+
+</p>
+			
 		</section>
 
 	</main>
 	<footer></footer>
+	
+	<script src="https://npmcdn.com/flickity@1.2/dist/flickity.pkgd.min.js"></script>
 </body>
 </html>
