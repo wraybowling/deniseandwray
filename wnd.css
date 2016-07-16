@@ -37,11 +37,10 @@ body{
 
 header{
 	font-family:"Attractive Sans Serif";
-	text-transform: uppercase;
+	background-color:#141414;
+	color:white;
 }
 header div{
-	display: flex;
-	justify-content: space-between;
 	padding: 0.25em;
 }
 header a{
@@ -50,14 +49,22 @@ header a{
 }
 
 #headerUpper{
-	background-color:#141414;
-	color:white;
+	text-transform: uppercase;
+	display: flex;
+	justify-content: space-between;
+	
 }
 #headerUpper a:hover{ background-color:#333; }
 
 #headerLower{
+/*
 	background-color:white;
 	color:#141414;
+*/
+	font-size:80%;
+	
+	text-align:center;
+	
 }
 
 a{ text-decoration: none; }
@@ -213,7 +220,7 @@ button,
 	width:100%;
 }
 
-.things-to-do p{
+p{
 	font-size:80%;
 	letter-spacing: 0;
 }
@@ -223,8 +230,8 @@ small{
 	line-height:1em;
 }
 
-footer{
-	height:100vh;
+footer section{
+/*	height:100vh;*/
 	background-image:url(shoes.jpg);
 	background-size: cover;
 	background-position:center;
