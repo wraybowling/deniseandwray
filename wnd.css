@@ -34,7 +34,6 @@ body{
 	}
 }
 
-
 header{
 	font-family:"Attractive Sans Serif";
 	background-color:#141414;
@@ -221,14 +220,24 @@ button,
 	width:100%;
 }
 
-p{
+li{
+	list-style: none;
+	padding:1em;
+}
+
+
+dt,p{
 	font-size:80%;
 	letter-spacing: 0;
 }
 
-small{
+small,sup{
 	font-size:50%;
 	line-height:1em;
+}
+
+#registry{
+	background-color:#45573a;
 }
 
 footer section{
