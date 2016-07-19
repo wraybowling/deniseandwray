@@ -72,6 +72,18 @@ html[dir="rtl"] .left { float:right; }
   justify-content: center;
 }
 
+.flex-row{
+	display:flex;
+}
+
 .crop{
 	overflow:hidden;
+}
+
+@media (max-width: 400px){
+	.desktop{ display: none; }
+}
+
+@media (min-width: 401px){
+	.mobile{ display: none; }
 }

@@ -56,16 +56,16 @@
 					<br><span>Columbia, SC</span>
 
 				</h1>
-				<div class="red frame" style="width:40vh; height:60vh; transform:translate(-177%,-73%) rotate(14deg);"></div>
-				<div class="blue frame" style="width:40vh; height:60vh; transform:translate(94%,-40%) rotate(-14deg);"></div>
-				<div class="yellow frame" style="width:60vh; height:60vh; transform:translate(20%,-10%) rotate(-4deg);"></div>
+				<div class="red frame"></div>
+				<div class="blue frame"></div>
+				<div class="yellow frame"></div>
 			</section>
 		</section>
 
 		<!-- Logistics go here LATER -->
 
 		<div class="download-the-date flex-center cushion">
-			<a href="denise-and-wray.ics" class="white button">Download the date</a>
+			<a href="denise-and-wray.ics" class="white button"><span class="mobile"><img src="calendar.svg" class="emoji"></span> Download <span class="desktop">the date</span></a>
 		</div>
 
 		<section id="columbia" class="card cushion"><!--flip with registry LATER-->
@@ -74,7 +74,7 @@
 				<br><span>Columbia, SC</span>
 			</h2>
 
-			<div class="things-to-do flex-layout" data-flickity='{ "wrapAround": true }'>
+			<div class="things-to-do flex-layout">
 
 				<article>
 					<a href="http://www.riverbanks.org/">
@@ -178,12 +178,18 @@
 		<section id="about" class="card yellow-hello">
 			<div class="card">
 				<div class="spacer"></div>
-				<img src="tinder-for-wray.png" width="204">
-				<img src="tinder-for-denise.png" width="251">
+				<div class="flex-row flex-center">
+					<div style="flex:1; text-align:right;">
+						<img src="tinder-for-wray.png" style="width:30.6vw; max-width:191px; width:100%;">
+					</div>
+					<div style="flex:1; text-align:left;">
+						<img src="tinder-for-denise.png" style="max-width:37.6vw; max-width:235px; width:100%;">
+					</div>
+				</div>
+				<div class="spacer"></div>
 				<h2>We met on Tinder. <img class="emoji" src="fire.svg"><img class="emoji" src="party-popper.svg"></h2>
 			</div>
 
-			<h1>The story in numbers</h1>
 			<dl class="flex-layout">
 				<li>
 					<dt>Number of users on Tinder in 2015</dt>
@@ -272,6 +278,6 @@
 	</footer>
 
 	<script src="countdown.js"></script>
-	<!-- <script src="google-analytics.js"></script> -->
+	<script src="google-analytics.js"></script>
 </body>
 </html>
