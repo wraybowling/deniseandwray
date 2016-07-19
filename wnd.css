@@ -10,16 +10,20 @@
 
 @font-face {
   font-family: "Cool Cursive";
-  src: url(fonts/Arabella.woff);
-	font-weight:400;
-	font-style:italic;
+  src: url("fonts/Arabella.woff"),
+       url("fonts/Arabella.svg"),
+       url("fonts/Arabella.ttf");
+	font-weight: 400;
+	font-style: italic;
 }
 
 @font-face {
   font-family: "Attractive Sans Serif";
-  src: url(fonts/Futura-Medium.woff);
-	font-weight:400;
-	font-style:italic;
+  src: url("fonts/Futura-Medium.woff"),
+       url("fonts/Futura-Medium.svg"),
+       url("fonts/Futura-Medium.ttf");
+	font-weight: 400;
+	font-style: normal;
 }
 
 body{
@@ -51,7 +55,7 @@ header a{
 	text-transform: uppercase;
 	display: flex;
 	justify-content: space-between;
-	
+
 }
 #headerUpper a:hover{ background-color:#333; }
 
