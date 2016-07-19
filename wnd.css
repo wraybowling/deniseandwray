@@ -9,19 +9,19 @@
 */
 
 @font-face {
-  font-family: "Cool Cursive";
-  src: url("fonts/Arabella.woff"),
-       url("fonts/Arabella.svg"),
-       url("fonts/Arabella.ttf");
+	font-family: "Cool Cursive";
+	src: url("fonts/Arabella.woff"),
+	     url("fonts/Arabella.svg"),
+	     url("fonts/Arabella.ttf");
 	font-weight: 400;
 	font-style: italic;
 }
 
 @font-face {
-  font-family: "Attractive Sans Serif";
-  src: url("fonts/Futura-Medium.woff"),
-       url("fonts/Futura-Medium.svg"),
-       url("fonts/Futura-Medium.ttf");
+	font-family: "Attractive Sans Serif";
+	src: url("fonts/Futura-Medium.woff"),
+	     url("fonts/Futura-Medium.svg"),
+	     url("fonts/Futura-Medium.ttf");
 	font-weight: 400;
 	font-style: normal;
 }
@@ -118,7 +118,8 @@ h1{
 }
 
 h2{
-	font-family:"Cool Cursive";
+	font-family: "Cool Cursive";
+	font-style: italic;
 	font-size:100px;
 	transform:rotate(-4deg);
 	font-weight:400;
@@ -209,8 +210,8 @@ button,
 .things-to-do article{
 	min-width:250px;
 	width: 30%;
-  margin-right: 10px;
-  border-radius: 5px;
+	margin-right: 10px;
+	border-radius: 5px;
 	margin-bottom:2em;
 }
 
@@ -245,7 +246,6 @@ small,sup{
 }
 
 footer section{
-/*	height:100vh;*/
 	background-image:url(shoes.jpg);
 	background-size: cover;
 	background-position:center;
