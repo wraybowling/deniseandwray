@@ -49,12 +49,14 @@ html[dir="rtl"] .left { float:right; }
 
 .flex-layout {
 	display:flex;
+	display:-webkit-flex;
 	flex-flow:row wrap;
+	-webkit-flex-flow:row wrap;
 }
 .flex-layout > * {
-    -ms-flex:auto;
+  	flex:auto;  
+		-ms-flex:auto;
     -webkit-flex:auto;
-    flex:auto;
     width:20em;
 }
 
@@ -62,20 +64,30 @@ html[dir="rtl"] .left { float:right; }
 	position:absolute;
 	top:50%;
 	left:50%;
-	-webkit-transform:translate(-50%,-50%);
 	transform:translate(-50%,-50%);
+	-webkit-transform:translate(-50%,-50%);
 }
 
 .flex-center{
-	display: flex;
-  align-items: center;
-  justify-content: center;
+	display:flex;
+	display:-webkit-flex;
+  align-items:center;
+	-webkit-align-items:center;
+  justify-content:center;
+	-webkit-justify-content:center;
 }
 
 .flex-row{
 	display:flex;
 }
 
+.flex-justified{
+	display: flex;
+	display: -webkit-flex;
+	justify-content: space-between;
+	-webkit-justify-content: space-between;
+}
+	
 .crop{
 	overflow:hidden;
 }

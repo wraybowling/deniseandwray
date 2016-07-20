@@ -42,6 +42,7 @@ header{
 	font-family:"Attractive Sans Serif";
 	background-color:#141414;
 	color:white;
+	text-transform: uppercase;
 }
 header div{
 	padding: 0.25em;
@@ -52,10 +53,7 @@ header a{
 }
 
 #headerUpper{
-	text-transform: uppercase;
-	display: flex;
-	justify-content: space-between;
-
+	
 }
 #headerUpper a:hover{ background-color:#333; }
 
@@ -122,6 +120,7 @@ h2{
 	font-style: italic;
 	font-size:100px;
 	transform:rotate(-4deg);
+	-webkit-transform:rotate(-4deg);
 	font-weight:400;
 	width:80%;
 	padding-bottom:0.3em;
